@@ -1,0 +1,37 @@
+{
+  "name": "elemental-tower-defense",
+  "version": "0.0.0",
+  "description": "Elemental web-based tower defense game",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^1.13.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snowguy13/elemental-tower-defense.git"
+  },
+  "keywords": [
+    "elemental",
+    "tower",
+    "defense",
+    "strategy",
+    "game",
+    "challenge",
+    "fire",
+    "water",
+    "air",
+    "ice",
+    "lightning",
+    "earth"
+  ],
+  "author": "Tom Scallon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snowguy13/elemental-tower-defense/issues"
+  },
+  "homepage": "https://github.com/snowguy13/elemental-tower-defense"
+}
