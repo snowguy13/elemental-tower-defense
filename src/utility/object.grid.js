@@ -1,14 +1,15 @@
-import range from 'array.range';
-import length from 'array.length';
-import map from 'array.map';
-import isEmpty from 'array.isEmpty';
-import all as arrayAll from 'array.all';
+import range from './array.range';
+import distinct from './array.distinct';
+import length from './array.length';
+import map from './array.map';
+import isEmpty from './array.isEmpty';
+import arrayAll from './array.all';
 
-import compose from 'function.compose';
+import compose from './function.compose';
 
-import all from 'predicate.all';
-import not from 'predicate.not';
-import equals from 'predicate.equals';
+import all from './predicate.all';
+import not from './predicate.not';
+import equals from './predicate.equals';
 
 const validateArray = all(
   not( isEmpty ),

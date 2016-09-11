@@ -1,3 +1,5 @@
-const map = (fn) => (arr) => arr.map(fn);
+const map = (fn) => (arr) => {
+  return arr.map(fn);
+}
 
 export default map;
