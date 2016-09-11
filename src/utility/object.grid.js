@@ -21,7 +21,11 @@ const grid = (
   rowNames = range(array.length),
   colNames = range(array[0].length)
 ) => {
+  if( !validateArray( array ) ) {
+    throw new Error('Invalid array: ', array );
+  }
 
+  console.log('The array is valid!');
 };
 
 export default grid;
