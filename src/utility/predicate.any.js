@@ -1,9 +1,6 @@
 const any = (...preds) => (x) =>
-  preds.reduce((truth, pred) =>
-    truth === true ||
-    !!pred(x),
-
-    x
-  );
+  preds.reduce((truth, pred) => {
+    return truth || !!pred(x);
+  }, false);
 
 export default any;

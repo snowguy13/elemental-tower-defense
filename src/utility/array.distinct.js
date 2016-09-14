@@ -1,6 +1,6 @@
 import contains from './array.contains';
 
 const distinct = (arr) => arr.reduce((dist, el) =>
-   contains(el)(dist) ? dist : [el, ...dist]);
+   contains(el)(dist) ? dist : [el, ...dist], []);
 
 export default distinct;

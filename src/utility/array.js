@@ -5,7 +5,9 @@ import distinct from './array.distinct';
 import forEach from './array.forEach';
 import length from './array.length';
 import indexOf from './array.indexOf';
+
 import map from './array.map';
+import reduce from './array.reduce';
 
 import all from './array.all';
 import any from './array.any';
@@ -20,7 +22,9 @@ export default {
   distinct,
   forEach,
   indexOf,
+
   map,
+  reduce,
 
   all,
   any,
