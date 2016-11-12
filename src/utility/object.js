@@ -1,3 +1,13 @@
-import grid from './object'.grid';
+import keys from './object.keys';
 
-export default { grid };
+import map from './object.map';
+
+import grid from './object.grid';
+
+export default {
+  keys,
+
+  map,
+  
+  grid,
+};

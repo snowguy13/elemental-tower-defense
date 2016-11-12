@@ -1,5 +1,8 @@
-import grid from './utility/object.grid';
+import map from './utility/object.map';
 
-let g = grid([[1, 2],[3, 4]]);
+let g = map((v, k) => [k, v])({
+  a: 1,
+  b: 2
+});
 
 console.log(g);

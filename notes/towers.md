@@ -19,7 +19,7 @@ continuously perform the following logic:
 
 ### Cooling Down
 
-The tower has recently fired a bullet and is temporary unabled to fire another.
+The tower has recently fired a bullet and is temporary unable to fire another.
 It can still receive Elemental Ether at this time; however, its own inherent
 Ether generation will not resume until it exits the **Cooldown** state.
 
